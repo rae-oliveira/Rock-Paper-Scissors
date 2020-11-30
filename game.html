@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="game.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Paper Rock Scissor</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Rock, Paper and Scissors</h1>
+
+      <div class="buttons_choices">
+        <button type="button" class="choice" value="Rock">
+          <img src="IMAGES/rock.jpg" />
+        </button>
+        <button type="button" class="choice" value="Paper">
+          <img src="IMAGES/paper.jpg" />
+        </button>
+        <button type="button" class="choice" value="Scissor">
+          <img src="IMAGES/scissors.jpg" />
+        </button>
+      </div>
+
+      <div id="result"></div>
+
+      <button type="submit" class="refresh" onClick="window.location.reload()">
+        Play Again
+      </button>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
